@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  
+<style></style>
+  <title>Frontend Mentor | Todo app</title>
+</head>
+<body>
+  
+  <section class="wrapper">
+
+    <header class="todo-header">
+      <div class="todo-header-items">
+        <h1>TODO</h1>
+        <input id="toggle-button" type="checkbox">
+        <label for="toggle-button">
+        </label>
+      </div> 
+    </header>
+
+    <form class="todo-form" action="index.html" method="post">
+      <span class="btn-round"></span>
+      <input type="text" name="todo" id="todo-input" placeholder="Create a new todo...">
+    </form>
+
+    <section class="todo-container">
+      <ul class="todo-list" id="todo-list">
+     
+        
+      </ul>
+      <div class="todo-actions">
+        <span id="todo-count"> 0 tasks left</span>
+        <button type="button" id="clear-completed" onclick="clearCompleted()">Clear Completed</button>
+      </div>
+    </section>
+
+    <div class="todo-filters" id="filters">
+      <button class="btn-filter active-btn " onclick="filterSelection('all')" type="button" id="show-all">All</button>
+      <button class="btn-filter" onclick="filterSelection('active')"type="button" id="show-active">Active</button>
+      <button  class="btn-filter" onclick="filterSelection('completedTask')" type="button" id="show-completed">Completed</button>
+    </div>
+
+    <p class="text-todo"> Drag and drop to reorder list</p>
+   
+  </section>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/eddieelorza" target="_blank">Eddie Elorza</a>.
+  </footer>
+
+  <script src="./js/main.js"></script>
+
+  <script src="./js/theme.js"></script>
+</body>
+</html>
