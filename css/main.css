@@ -72,7 +72,7 @@ body {
 }
 
 .todo-header-items h1{
-    font-size: 2rem;
+    font-size: 1.7rem;
     letter-spacing: 15px;
     color: white;
     transition: font-size 0.3s;
@@ -90,16 +90,15 @@ body {
     background-size: cover;
     cursor: pointer;
     display: flex;
-    height: 30px;
+    height: 25px;
     
-    width: 30px;
+    width: 25px;
   }
   
   #toggle-button:checked + label {
     background-image: var(--icon-sun);
-    height: 30px;
-    
-    width: 30px;
+    height: 25px;
+    width: 25px;
     background-position: center;
     background-size: cover;
   }
@@ -112,9 +111,9 @@ body {
     width: 85%;
     height: 60px;
     border-radius: 5px;
-    position: absolute;
+    /* position: absolute; */
     padding: 0 20px;
-    top: 17%;
+    margin-top: -140px;
 }
 .todo-form input{
     border: none;
@@ -167,7 +166,7 @@ body {
     width: 85%;
     height: auto;
     border-radius: 5px;
-    margin-top: -30px;
+    margin-top: -25px;
     }
 
 .todo-list{
@@ -268,7 +267,7 @@ li{
     height: 60px;
     border-radius: 5px;
     padding: 0 40px;
-    margin-top: 40px;
+    margin-top: 17px;
 }
 
 .btn-filter{
@@ -329,7 +328,7 @@ li{
     .todo-form{
         width: 720px;
         height: 60px;
-        top: 180px;
+        margin-top: -220px;
     }
     .todo-container {
         width: 720px;
