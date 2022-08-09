@@ -336,7 +336,11 @@ li{
     }
     .todo-filters{
         width: 0px;
+        height: 0px;
         margin-top: -58px;
+        box-shadow: none;
+        background-color: none;
+
     }
 
     .close-btn{
